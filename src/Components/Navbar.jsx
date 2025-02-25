@@ -8,7 +8,9 @@ const Navbar = () => {
             <ul className="menu">
             <li><Link to="/" style={{textDecoration: "none"}} className="menu-btn">Home</Link></li>
             {/* <li><Link to="/newblog" style={{textDecoration: "none"}} className="menu-btn">New Blog</Link></li> */}
-            <li><Link to="/exchangerates" style={{textDecoration: "none"}} className="menu-btn">Exchange Rates</Link></li>
+            <li><Link to="/exchangerates" style={{textDecoration: "none"}} className="menu-btn">Exchange Rates</Link> |MISC👉|</li>
+            <li><Link to="/todos" style={{textDecoration: "none"}} className="menu-btn">Todos</Link> </li>
+            <li><Link to="/shopping-cart" style={{textDecoration: "none"}} className="menu-btn">Shopping Cart</Link> </li>
             </ul>
           </div>
         </>

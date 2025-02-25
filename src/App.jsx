@@ -7,6 +7,8 @@ import Posts from './Components/Posts'
 import PostDetail from './Components/PostDetail'
 import NewBlog from './Components/NewBlog'
 import ExchangeRates from './Components/ExchangeRates'
+import TodoList from './Components/Misc - useReducer/Todos'
+import ShoppingCart from './Components/Misc - useReducer/ShoppingCart'
 import Footer from './Components/Footer'
 import './App.css'
 
@@ -20,6 +22,8 @@ function App() {
         <Route path='/read/:id' element={<PostDetail />}></Route>
         <Route path='/newblog' element={<NewBlog />}></Route>
         <Route path='/exchangerates' element={<ExchangeRates />}></Route>
+        <Route path='/todos' element={<TodoList />}></Route>
+        <Route path='/shopping-cart' element={<ShoppingCart />}></Route>
       </Routes>
       <Footer />
     </BrowserRouter>

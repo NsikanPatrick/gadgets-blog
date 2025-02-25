@@ -47,7 +47,7 @@ const ExchangeRates = () => {
   }, [amount, fromCur, toCur]);
 
   return (
-    <div className="exchangeRates">
+    <div className="container page-content">
       <div>
         <input
           type="number" // Use type="number" for better input validation

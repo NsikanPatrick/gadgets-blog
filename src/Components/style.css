@@ -180,7 +180,7 @@
 }
 
 /* Exchange Rates */
-.exchangeRates{
+.page-content{
     display: flex;
     flex-direction: column;
     justify-content: center; /* Horizontally center */
@@ -189,26 +189,70 @@
     width: 40%;
 }
 
-.exchangeRates input, .exchangeRates select{
+.page-content input, .page-content select{
     border: 1px solid var(--bg-blue);
     padding: 10px;
     
 }
 
-.exchangeRates input{
+.page-content input{
     border-radius: 10px 0 0 10px;
 }
 
-.exchangeRates select:nth-child(3){
+.page-content select:nth-child(3){
     border-radius: 0px 10px 10px 0px;
 }
 
-.exchangeRates p {
+.page-content p {
     margin-top: 15px;
     padding: 15px;
     color: #fff;
     background: var(--bg-blue);
     border-radius: 10px;
+}
+
+/* Todos */
+.page-content button {
+    margin-top: 15px;
+    padding: 10px;
+    color: #fff;
+    background: var(--bg-blue);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.page-content span{
+    margin: 0 10px 0 10px
+}
+
+.page-content button.delete-btn{
+    border-radius: 10px
+}
+
+/* Shopping cart */
+.page-content button.add-btn, .page-content .remove-from-cart-btn{
+    padding: 7px;
+    margin-left: 15px;
+    border-radius: 10px
+}
+
+.page-content h2{
+    color: var(--bg-blue);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.shop{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}
+
+.shop h3{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background: var(--bg-blue);
+    color: var(--bg-off-white)
 }
 
 /* footer  */
